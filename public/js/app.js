@@ -1,5 +1,3 @@
-console.log('Client side java script file is loaded')
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
@@ -25,6 +23,6 @@ weatherForm.addEventListener('submit', (e) => {
             messageOne.textContent = data.location
             messagetwo.textContent = data.forecast
         }
-    })
+    }) 
 })
 })
